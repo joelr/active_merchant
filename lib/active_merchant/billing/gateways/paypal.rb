@@ -27,7 +27,7 @@ module ActiveMerchant #:nodoc:
         @express ||= PaypalExpressGateway.new(@options)
       end
       
-      private
+      
       
       def define_transaction_type(transaction_arg)
         if transaction_arg.is_a?(String)
