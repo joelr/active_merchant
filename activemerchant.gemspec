@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files = Dir['CHANGELOG', 'README.md', 'MIT-LICENSE', 'CONTRIBUTORS', 'gem-public_cert.pem', 'lib/**/*', 'vendor/**/*']
   s.require_path = 'lib'
   
-  s.has_rdoc = true if Gem::VERSION < '1.7.0'
+  s.has_rdoc = true if Gem::VERSION < '1.7.1'
   
   s.add_dependency('activesupport', '>= 2.3.11')
   s.add_dependency('i18n')
